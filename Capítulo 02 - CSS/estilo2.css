@@ -9,3 +9,11 @@ p.fontepadrao{
 	color: black;
 	text-align: justify;
 }
+
+p.fontedestaque{
+	font-family: "Arial";
+	font-size: 18px;
+	font-weight: bold;
+	color: red;
+	text-align: justify;
+}
