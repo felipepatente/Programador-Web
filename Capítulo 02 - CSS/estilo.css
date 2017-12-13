@@ -17,3 +17,7 @@ p{
 #notas:hover{
 	color: black;
 }
+
+p.corpadrao{
+	color: black;
+}
