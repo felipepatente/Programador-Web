@@ -2,3 +2,10 @@ body.padrao{
 	background-color: lightcyan;
 	text-align: center;
 }
+
+p.fontepadrao{
+	font-family: "Arial";
+	font-size: 18px;
+	color: black;
+	text-align: justify;
+}
