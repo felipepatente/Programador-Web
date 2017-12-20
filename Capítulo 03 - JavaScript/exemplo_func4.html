@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Usando funções</title>
+	<script type="text/javascript">
+		
+		function justifica_falta(form) {
+			var jf = confirm("Justifica Falta " + form.nome_aluno.value + " ?");
+
+			if(jf == true){
+				var texto_jf = prompt("Digite a justificativa apresentada: ");
+			}else{
+				alert("Falata não justificada");
+			}
+		}
+
+	</script>
+	<meta charset="utf-8">
+</head>
+<body>
+	
+	<h1>Sistema Acadêmico</h1>
+	<form name="myForm" action="" method="GET">
+		<p><label>Matricula: <input type="text" name="matricula"></label></p>
+		<p><label>Nome: <input type="text" name="nome_aluno"></label></p>
+		<p><label>Data da falta: <input type="text" name="falta"></label></p>		
+		<input type="button" name="button" value="Justicar Falta" onclick="justifica_falta(this.form)">
+	</form>
+
+</body>
+</html>
