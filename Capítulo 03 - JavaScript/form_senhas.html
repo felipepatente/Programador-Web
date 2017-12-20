@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Validar Senha</title>
+	<meta charset="utf-8">
+
+	<script type="text/javascript">
+
+		function testa_senha() {
+			
+			var p1 = document.forms["formsenha"]["senha"].value;
+			var p2 = document.forms["formsenha"]["senha_conf"].value;
+
+			if(p1.length < 6){
+				alert("Senha muito pequena. Digite pelo menos 6 caracteres.");
+				return false;
+			}
+
+			if(p1 != p2){
+				alert("Senhas diferentes. Tente de novo");
+				return false;
+			}
+		}
+
+	</script>
+</head>
+<body>
+
+	<form name="formsenha" action="" method="post" onsubmit="return testa_senha()">
+		<p><label>Senha: <input type="password" name="senha"></label></p>
+		<p><label>Confirmar senha: <input type="password" name="senha_conf"></label></p>
+		<input type="submit" name="submit">
+	</form>
+	
+</body>
+</html>
