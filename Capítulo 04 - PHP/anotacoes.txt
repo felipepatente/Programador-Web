@@ -1,0 +1,128 @@
+PHP - Personal Home Pages depois foi para Hypertext Preprocessor
+
+Extensão              Significado 
+.php                  Aquivo PHP contendo um programa.
+.class.php            Aquivo PHP contendo uma classe.
+.inc.php              Arquivo PHP a ser incluído, pode incluir constantes ou configurações.
+.php3                 Arquivo PHP contendo um programa PHP versao 3.
+.php4                 Arquivo PHP contendo um programa PHP versão 4.
+.phtml                Arquivo PHP contendo um programa PHP e HTML na mesma página.
+
+
+var_dump = Imprime o conteúdo de uma variável de forma explanativa, muito comum para se realizar debug. se o parâmetro for um objeto, ele imprimirá todos os seus atributos; se for um array de várias dimensões, imprimirá todas elas, com seus respectivos conteúdos e tipos de dados.
+
+
+print_r = Imprime o conteúdo de uma variável de forma explanativa, assim como a var_dump(), mas em um formato mais legível para o programador, com os conteúdos alinhados e suprimindo os tipos de dados.
+
+
+Operadores      Descrição
+  ++$a          Pré-incremento. Incrementa $a em um, e então, retorna $a.
+  $a++          Pós-incremento. Retorna $a e, então, incrementa $a em um.  
+  --$a          Pré-decremento. Decrementa $a em um e, então, retorna $a.
+  $a--          Pós-decremento. Retorna $a e, então, decrementa $a em um.
+
+Operadores Aritméticos
+
+Operadores      Descrição
+    +           Adição
+    -           Subtração
+    *           Multiplicação
+    /           Divisão
+    %           Módulo (resto da divisão)
+
+
+Operadores Relacionais
+
+Comparadores            Descrição
+    ==                  Igual. Resulta verdadeiro (true) se expressões forem iguais.
+    ===                 Idêntico. Resulta verdadeiro (true) se as expressões forem iguais e do mesmo tipo de dados
+    != ou <>            Diferente. Resulta verdadeiro se as variáveis forem diferente
+    <                   Menor que
+    >                   Maior que
+    <=                  Menor ou igual 
+    >=                  Maior ou igual
+
+
+Operadores Lógicos
+
+Operador            Descrição
+($a and $b)         E: Verdadeiro (true) se tanto $a quanto $b forem verdadeiros.
+($a or $b)          OU: Verdadeiro (true) se $a ou $b forem verdadeiros.
+($a xor $b)         XOR: Verdadeiro (true) se $a ou $b forem verdadeiros, de forma exclusiva.
+(! $a)              NOT: Verdadeiro (true) se $a for FALSE.
+($a && $b)          E: Verdadeiro (true) se tanto $a quanto $b forem verdadeiros.
+($a || $b)          OU: Verdadeiro (true) se $a ou $b forem verdadeiros.
+
+Observação: or e and tem precedencia maior que && ou ||
+
+
+Caracteres de escape
+
+Caractere      Descrição
+   \n          Nova linha, proporciona uma quebra de linha.
+   \r          Retorno de carro.
+   \t          Tabulação.
+   \\          Barra invertida "\\" é o mesmo que '\'.
+   \"          Aspas duplas
+   \$          Símbolo de $
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
