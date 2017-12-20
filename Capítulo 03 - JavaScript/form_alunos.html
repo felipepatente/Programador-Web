@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Validar dados</title>
+	<meta charset="utf-8">
+
+	<script type="text/javascript">
+		
+		function testa_form() {
+			
+			var n = document.forms["formalunos"]["nome_aluno"].value;
+			var m = document.forms["formalunos"]["matricula"].value;
+
+			if(m == null || m == ""){
+				alert("Número de Matricula precisa ser informada");
+				return false;
+			}
+
+			if(n == null || n == ""){
+				alert("Nome do aluno precisa ser informado");
+				return false;
+			}
+		}
+
+	</script>
+</head>
+<body>
+	<h1>Sistema Acadêmico - Justificativa de Falta</h1>
+
+	<form name="formalunos" action="" onsubmit="return testa_form()" method="post">
+		<p><label>Matricula: <input type="text" name="matricula"></label></p>
+		<p><label>Nome: <input type="text" name="nome_aluno"></label></p>
+		<input type="submit" name="submit">
+	</form>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
