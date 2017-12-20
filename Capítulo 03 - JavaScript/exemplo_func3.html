@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Usando funções</title>
+	<script type="text/javascript">
+		function calc_media(n1,n2) {									
+			var m = (n1 + n2) / 2;
+			return m;
+		}
+
+		function resultado(form) {									
+			var media = calc_media(parseFloat(form.nota1.value),parseFloat(form.nota2.value));
+
+			if(media >= 7){
+				alert("Aprovado");				
+			}else{
+				alert("Recuperação");
+			}
+		}
+
+	</script>
+	<meta charset="utf-8">
+</head>
+<body>
+	
+	<h1>Sistema Acadêmico</h1>
+	<form name="myForm" action="" method="GET">
+		<p><label>Matricula: <input type="text" name="matricula"></label></p>
+		<p><label>Data nascimento: <input type="text" name="nasc_aluno"></label></p>
+		<p><label>Sexo: <input type="radio" name="sexo" value="masculino" checked>Masculino 
+						<input type="radio" name="sexo" value="feminino">Feminino</label></p>
+		<p><label>Primeira Nota: <input type="text" name="nota1"></label></p>
+		<p><label>Segunda Nota: <input type="text" name="nota2"></label></p>
+		<input type="button" name="button" value="Calcular Média" onclick="resultado(this.form)">
+	</form>
+
+</body>
+</html>
