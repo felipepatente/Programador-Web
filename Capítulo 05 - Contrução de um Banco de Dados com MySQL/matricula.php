@@ -8,7 +8,7 @@
 	<h2>Cadastro de curso</h2>
 	<p>Prezado(a) aluno(a), preencha com seus dados: </p>
 	
-	<form method="post" action="cadastrocurso.php">
+	<form method="post" action="cadastromatricula.php">
 		<p>
 			<label for="aluno">Nome:</label>
 			<input type="text" id="aluno" name="aluno">

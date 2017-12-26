@@ -10,7 +10,7 @@
 		if(!$conexao){
 			die('Não foi possível conectar ao banco de dados. Erro detectado: ' . mysql_error());
 		}
-		echo "Conexão bem-sucedida.";
+		//echo "Conexão bem-sucedida.";
 		mysql_set_charset('utf-8',$conexao);
 
 		
@@ -29,7 +29,7 @@
 		*/
 
 
-		mysql_close($conexao);
+		//mysql_close($conexao);
 	?>
 </body>
 </html>
