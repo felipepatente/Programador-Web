@@ -13,6 +13,7 @@
 		echo "Conexão bem-sucedida.";
 		mysql_set_charset('utf-8',$conexao);
 
+		mysql_close($conexao);
 	?>
 </body>
 </html>
