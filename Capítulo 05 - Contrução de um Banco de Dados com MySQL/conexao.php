@@ -13,6 +13,10 @@
 		echo "Conexão bem-sucedida.";
 		mysql_set_charset('utf-8',$conexao);
 
+		
+
+		$banco = "CREATE DATABASE sis_academico";
+		mysql_query($banco);
 		mysql_close($conexao);
 	?>
 </body>
