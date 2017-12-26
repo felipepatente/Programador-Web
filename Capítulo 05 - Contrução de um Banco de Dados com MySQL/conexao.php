@@ -15,6 +15,8 @@
 
 		
 
+		/*
+
 		$banco = "CREATE DATABASE sis_academico";
 		//mysql_query($banco);
 
@@ -23,6 +25,8 @@
 		}else{
 			echo "Erro ao criar o banco de dados: " . mysql_error();
 		}
+
+		*/
 
 
 		mysql_close($conexao);
