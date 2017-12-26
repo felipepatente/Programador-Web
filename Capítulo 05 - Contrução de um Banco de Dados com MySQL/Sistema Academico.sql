@@ -1,2 +1,7 @@
 CREATE DATABASE sis_academico;
 
+CREATE TABLE matricula(
+	id INT(10) AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(50) NOT NULL,
+    curso VARCHAR(50) NOT NULL
+);
