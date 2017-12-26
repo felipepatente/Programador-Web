@@ -28,8 +28,12 @@
 		$novo_curso = "Programação Web";
 		$atualizar = "UPDATE matricula SET curso='$novo_curso' WHERE id=1";
 		mysql_query($atualizar);
-		mysql_close($conexao);
+		
+		//Deletando um aluno
+		$apagar = "DELETE FROM matricula WHERE nome = 'Felipe';";
+		mysql_query($apagar);
 
+		mysql_close($conexao);
 	?>
 </body>
 </html>
