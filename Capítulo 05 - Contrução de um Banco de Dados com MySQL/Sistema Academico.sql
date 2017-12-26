@@ -5,3 +5,6 @@ CREATE TABLE matricula(
     nome VARCHAR(50) NOT NULL,
     curso VARCHAR(50) NOT NULL
 );
+
+SELECT * FROM matricula;
+
