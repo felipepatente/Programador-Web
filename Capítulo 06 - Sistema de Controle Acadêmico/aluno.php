@@ -49,6 +49,10 @@
 					<option value="to">Tocantins</option>
 				</select>
 			</p>
+
+			<p><label for="telefone">Telefone:<br><input type="text" name="telefone" id="telefone"></label></p>
+			<input type="reset" name="limpar" value="Limpar">
+			<input type="submit" name="submit" value="Enviar">
 		</form>
 	</fieldset>
 </body>
