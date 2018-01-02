@@ -8,7 +8,8 @@
 	$cidade = $_POST['cidade'];
 	$estado = $_POST['estado'];
 	$telefone = $_POST['telefone'];
-
+	$formacao = $_POST['formacao'];
+	$titulacao = $_POST['titulacao'];
 
 	require("conexao.php");
 	mysql_select_db("sis_academico");
