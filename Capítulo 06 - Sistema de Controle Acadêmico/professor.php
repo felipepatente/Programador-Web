@@ -51,6 +51,18 @@
 			</p>
 
 			<p><label for="telefone">Telefone:<br><input type="text" name="telefone" id="telefone"></label></p>
+			<p><label for="formacao">Informações acadêmicas<br>Formação:<br><input type="text" name="formacao" id="formacao"></label></p>
+			<p>
+				<label for="titulacao">
+					Titulação:<br>
+					<select name="titulacao" id="select">
+						<option value="">Selecione a titulcação</option>
+						<option value="graduacao">Graduação</option>
+						<option value="mestrado">Mestrado</option>
+						<option value="doutorado">Doutorado</option>
+					</select>
+				</label>
+			</p>
 			<input type="reset" name="limpar" value="Limpar">
 			<input type="submit" name="submit" value="Enviar">
 		</form>
