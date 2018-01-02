@@ -13,8 +13,8 @@
 
 	require("conexao.php");
 	mysql_select_db("sis_academico");
-	$inserir = "INSERT INTO aluno (id_aluno, cpf, nome, endereco, complemento, cep, bairro, cidade, estado, telefone) VALUES (DEFAULT, '$cpf', '$nome', '$endereco', '$complemento', '$cep', '$bairro', '$cidade', '$estado', '$telefone');";
+	$inserir = "INSERT INTO professor (id_professor, cpf, nome, endereco, complemento, cep, bairro, cidade, estado, telefone, formacao, titulacao) VALUES (DEFAULT, '$cpf', '$nome', '$endereco', '$complemento', '$cep', '$bairro', '$cidade', '$estado', '$telefone', '$formacao','$titulacao');";
 
 	mysql_query($inserir);
-	//mysql_close();
+	mysql_close();
 ?>
