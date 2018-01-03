@@ -93,7 +93,7 @@ CREATE TABLE turma(
 );
 
 
-
+SELECT * FROM turma;
 
 
 
