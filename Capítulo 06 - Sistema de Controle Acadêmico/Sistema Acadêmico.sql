@@ -101,12 +101,3 @@ SELECT * FROM turma;
 
 
 
-
-
-
-
-
-
-
-
-
