@@ -46,5 +46,16 @@ CREATE TABLE curso(
     FOREIGN KEY (coordenador) REFERENCES professor(id_professor)
 );
 
-
 SELECT * FROM curso;
+
+
+CREATE TABLE matricula(
+	id_matricula INT PRIMARY KEY AUTO_INCREMENT,
+    id_curso INT NOT NULL,
+    id_aluno INT NOT NULL,
+    
+    FOREIGN KEY (id_aluno) REFERENCES aluno(id_aluno),
+    FOREIGN KEY (id_curso) REFERENCES curso(id_curso)
+);
+
+
