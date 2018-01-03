@@ -21,10 +21,10 @@
 						require("conexao.php");
 						mysql_select_db("sis_academico");
 
-						$consulta = mysql_query("SELECT cpf, nome FROM professor");
+						$consulta = mysql_query("SELECT id_professor, nome FROM professor");
 
 						while($dados = mysql_fetch_array($consulta)){
-							echo "<option value='". $dados['cpf'] ."'>" . $dados['nome'] . "</option>";
+							echo "<option value='". $dados['id_professor'] ."'>" . $dados['nome'] . "</option>";
 						}
 					?>
 				</select>
