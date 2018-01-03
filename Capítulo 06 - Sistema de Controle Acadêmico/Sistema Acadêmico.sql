@@ -70,13 +70,14 @@ CREATE TABLE disciplina(
 );
 
 
+SELECT * FROM disciplina;
 
 
-
-
-
-
-
-
-
+CREATE TABLE curso_disciplina(
+	id_curso INT,
+    id_disciplina INT,
+    PRIMARY KEY (id_curso, id_disciplina),
+    FOREIGN KEY (id_curso) REFERENCES curso (id_curso),
+    FOREIGN KEY (id_disciplina) REFERENCES disciplina (id_disciplina)
+);
 
