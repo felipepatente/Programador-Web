@@ -17,7 +17,7 @@
 						mysql_select_db("sis_academico");
 						$consulta = mysql_query("SELECT id_aluno, nome FROM aluno;");
 						while($dados = mysql_fetch_array($consulta)){
-							echo "<option value='" . $dados['cpf'] . "'>" . $dados['nome'] . "</option>";
+							echo "<option value='" . $dados['id_aluno'] . "'>" . $dados['nome'] . "</option>";
 						}
 					?>
 				</select>

@@ -58,4 +58,4 @@ CREATE TABLE matricula(
     FOREIGN KEY (id_curso) REFERENCES curso(id_curso)
 );
 
-
+SELECT * FROM matricula;
