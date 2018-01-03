@@ -8,12 +8,13 @@
 			margin-bottom: 20px;
 		}
 	</style>
+
 </head>
 <body>
 	<header>
 		<ul class="nav nav-pills nav-fill">
 		  <li class="nav-item">
-		    <a class="nav-link active" href="aluno.php">Aluno</a>
+		    <a class="nav-link" href="aluno.php">Aluno</a>
 		  </li>
 		  <li class="nav-item">
 		    <a class="nav-link" href="professor.php">Professor</a>
@@ -36,7 +37,7 @@
 		  <li class="nav-item">
 		    <a class="nav-link" href="turma.php">Turma</a>
 		  </li>			  
-		</ul>
+		</ul>	
 	</header>
 </body>
 </html>
