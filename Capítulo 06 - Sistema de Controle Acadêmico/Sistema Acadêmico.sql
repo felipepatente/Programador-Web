@@ -17,7 +17,7 @@ SELECT * FROM aluno;
 
 CREATE TABLE professor(
 	
-    id_aluno INT PRIMARY KEY AUTO_INCREMENT,
+    id_professor INT PRIMARY KEY AUTO_INCREMENT,
     cpf VARCHAR(100) NOT NULL,
     nome VARCHAR (100) NOT NULL,
     endereco VARCHAR(100) NOT NULL,
@@ -32,6 +32,19 @@ CREATE TABLE professor(
 );
 
 SELECT * FROM professor;
+
+
+CREATE TABLE curso(
+	
+    id_curso INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(100) NOT NULL,
+    duracao VARCHAR(100),
+    coordenador INT NOT NULL,
+    nivel VARCHAR(25),
+    modalidade VARCHAR(50),
+    
+    FOREIGN KEY (coordenador) REFERENCES professor(id_professor)
+);
 
 
 
