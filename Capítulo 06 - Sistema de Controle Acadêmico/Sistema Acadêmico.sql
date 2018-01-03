@@ -47,5 +47,4 @@ CREATE TABLE curso(
 );
 
 
-
-
+SELECT * FROM curso;
