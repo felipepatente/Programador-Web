@@ -59,3 +59,24 @@ CREATE TABLE matricula(
 );
 
 SELECT * FROM matricula;
+
+
+CREATE TABLE disciplina(
+	id_disciplina INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(100) NOT NULL,
+    carga_horaria INT,
+    creditos INT,
+    ementa VARCHAR(100)
+);
+
+
+
+
+
+
+
+
+
+
+
+
