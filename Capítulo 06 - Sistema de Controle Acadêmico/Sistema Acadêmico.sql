@@ -96,6 +96,16 @@ CREATE TABLE turma(
 SELECT * FROM turma;
 
 
+CREATE TABLE aluno_turma(
+	id_matricula INT,
+    id_turma INT,
+    PRIMARY KEY (id_matricula, id_turma),
+    FOREIGN KEY (id_matricula) REFERENCES matricula(id_matricula),
+    FOREIGN KEY (id_turma) REFERENCES turma (id_turma)
+);
+
+SELECT * FROM aluno_turma;
+
 
 
 
