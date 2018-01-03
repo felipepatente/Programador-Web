@@ -81,3 +81,32 @@ CREATE TABLE curso_disciplina(
     FOREIGN KEY (id_disciplina) REFERENCES disciplina (id_disciplina)
 );
 
+SELECT * FROM curso_disciplina;
+
+
+CREATE TABLE turma(
+    id_turma INT PRIMARY KEY AUTO_INCREMENT,
+    id_disciplina INT,
+    id_professor INT,
+    FOREIGN KEY (id_professor) REFERENCES professor(id_professor),
+    FOREIGN KEY (id_disciplina) REFERENCES disciplina (id_disciplina)
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
