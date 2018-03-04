@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tabelas</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+
+	table {
+		border-collapse:collapse;
+		border:2px solid #000;
+	}
+
+	.tabela tr {
+		border:1px solid #CCC;
+	}
+
+	.tabela td {
+		width:50px;
+		height:50px;
+		padding:10px;		
+	}
+
+	.bordaDireitaNormal{
+		border-right:1px solid #CCC;
+	}
+
+
+	.bordaDireita{
+		border-right:2px solid #000;
+	}
+
+	#alinhado{
+		text-align: center;
+	}
+</style>
+</head>
+<body>
+	<table width=100% class=tabela>
+		<tr>
+			<td colspan=3 align=center>Banner Superior</td>
+		</tr>
+		<tr>
+			<td class=bordaDireitaNormal>Botão Home</td>
+			<td class=bordaDireitaNormal rowspan=4>IMG 01</td>
+			<td class=bordaDireitaNormal rowspan=4>IMG 02</td>
+		</tr>
+		<tr>
+			<td class=bordaDireitaNormal>Botão Quem Somos</td>
+		</tr>
+		<tr>
+			<td class=bordaDireitaNormal>Botão Produtos</td>
+		</tr>
+		<tr>
+			<td class=bordaDireitaNormal>Botão Contatos</td>
+		</tr>
+		<tr>
+			<td class=bordaDireitaNormal>Espaço</td>
+			<td class=bordaDireitaNormal>Texto IMG 01</td>
+			<td class=bordaDireitaNormal>Texto IMG 02</td>
+		</tr>
+		<tr>
+			<td colspan=3 align=center>Rodapé</td>
+		</tr>
+	</table>
+
+	<br>
+	<br>
+	<br>
+	<table width=100% class=tabela>
+		<tr>
+			<td class=bordaDireitaNormal colspan=2>Cabeçalho = Nome + Imagem</td>
+		</tr>
+		<tr>
+			<td class=bordaDireitaNormal colspan=2>Menu Superior</td>
+		</tr>
+
+		<tr>
+			<td class=bordaDireitaNormal width=70%>Conteúdo</td>
+			<td class=bordaDireitaNormal width=30%>Menu lateral</td>
+		</tr>
+
+		<tr>
+			<td colspan="2">Rodapé</td>
+		</tr>
+
+	</table>
+
+	<br>
+	<br>
+	<br>
+
+	<table width=100% class=tabela id=alinhado>
+		<tr>
+			<td class=bordaDireita>Exercício</td>
+			<td class=bordaDireita colspan=2>1993 e 1994</td>
+			<td class=bordaDireitaNormal colspan=2>1995</td>
+			<td class=bordaDireita colspan=2>1996</td>
+			<td class=bordaDireitaNormal colspan=2>1997</td>
+			<td class=bordaDireita colspan=2>1998</td>
+			<td class=bordaDireitaNormal colspan=2>1999 a 2001</td>
+		</tr>
+		
+		<tr>
+			<td class=bordaDireita rowspan=5>Tabela Progressiva</td>
+			<td class=bordaDireitaNormal>BC</td>
+			<td class=bordaDireita>Aliq</td>
+			<td class=bordaDireitaNormal>BC</td>
+			<td class=bordaDireitaNormal>Aliq</td>
+			<td class=bordaDireitaNormal>BC</td>
+			<td class=bordaDireita>Aliq</td>
+			<td class=bordaDireitaNormal>BC</td>
+			<td class=bordaDireitaNormal>Aliq</td>
+			<td class=bordaDireitaNormal>BC</td>
+			<td class=bordaDireita>Aliq</td>
+			<td class=bordaDireitaNormal>BC</td>
+			<td class=bordaDireitaNormal>Aliq</td>			
+		</tr>
+
+		<tr>
+			<td class=bordaDireitaNormal>Até 9.543</td>
+			<td class=bordaDireita>0</td>
+			<td class=bordaDireitaNormal>Até 9.543</td>
+			<td class=bordaDireitaNormal>0</td>
+			<td class=bordaDireitaNormal>Até 8.803.4</td>
+			<td class=bordaDireita>0</td>
+			<td class=bordaDireitaNormal>Até 10.800.00</td>
+			<td class=bordaDireitaNormal>0</td>
+			<td class=bordaDireitaNormal>Até 10.800.00</td>
+			<td class=bordaDireita>0</td>
+			<td class=bordaDireitaNormal>Até 10.800.00</td>
+			<td class=bordaDireitaNormal>0</td>
+		</tr>
+
+		<tr>
+			<td class=bordaDireitaNormal>Acima de 9.543,0 até 18.609,0</td>
+			<td class=bordaDireita>15</td>
+			<td class=bordaDireitaNormal>Acima de 9.543,0 até 18.609,0</td>
+			<td class=bordaDireitaNormal>15</td>
+			<td class=bordaDireitaNormal>Acima de 8.8003,4 até 17.166,3</td>
+			<td class=bordaDireita>15</td>
+			<td class=bordaDireitaNormal>Acima de 10.800,0 até 21.600,0</td>
+			<td class=bordaDireitaNormal>15</td>
+			<td class=bordaDireitaNormal>Acima de 10.800,0 até 21.600,0</td>
+			<td class=bordaDireita>15</td>
+			<td class=bordaDireitaNormal>Acima de 10.800,00 até 21.600,0</td>
+			<td class=bordaDireitaNormal>15</td>
+		</tr>
+
+		<tr>
+			<td class=bordaDireitaNormal>Acima de 18.609.0</td>
+			<td class=bordaDireita>25</td>
+			<td class=bordaDireitaNormal>Acima de 18.609,00 até 171.771,0</td>
+			<td class=bordaDireitaNormal>26,6</td>
+			<td class=bordaDireitaNormal>Acima de 17.166,30 até 158.457,4</td>
+			<td class=bordaDireita>26,6</td>
+			<td class=bordaDireitaNormal>Acima de 21.600,0</td>
+			<td class=bordaDireitaNormal>25</td>
+			<td class=bordaDireitaNormal>Acima de 21.600,0</td>
+			<td class=bordaDireita>25</td>
+			<td class=bordaDireitaNormal>Acima de 21.600,0</td>
+			<td class=bordaDireitaNormal>27,5</td>
+		</tr>
+
+		<tr>
+			<td></td>
+			<td class=bordaDireita></td>
+			<td class=bordaDireitaNormal>Acima de 171.771,0</td>
+			<td class=bordaDireitaNormal>35</td>
+			<td class=bordaDireitaNormal>Acima de 158.457,4</td>
+			<td class=bordaDireita>35</td>
+			<td class=bordaDireitaNormal></td>
+			<td class=bordaDireitaNormal></td>
+			<td class=bordaDireitaNormal></td>
+			<td class=bordaDireita></td>
+			<td class=bordaDireitaNormal></td>
+			<td class=bordaDireitaNormal></td>
+		</tr>		
+	</table>
+	<br>
+	<br>
+	<br>
+</body>
+</html> 
